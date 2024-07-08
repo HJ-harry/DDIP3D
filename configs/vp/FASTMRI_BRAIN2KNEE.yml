@@ -1,0 +1,58 @@
+# ood test data
+data:
+    dataset: "fastmri_knee"
+    root: "./data"
+    vol_name: "file1000033"
+    image_size: 256
+    channels: 1
+
+model:
+    train_data: "fastmri_brain"
+    model_ckpt: "./exp/vp/fastmri_brain_320_complex_1m.pt"
+    type: "openai"
+    in_channels: 2
+    out_channels: 4
+    num_channels: 256
+    num_heads: 4
+    num_res_blocks: 1
+    attention_resolutions: "16"
+    dropout: 0.0
+    resamp_with_conv: True
+    learn_sigma: True
+    use_scale_shift_norm: true
+    use_fp16: false
+    resblock_updown: true
+    num_heads_upsample: -1
+    var_type: 'fixedsmall'
+    num_head_channels: 64
+    image_size: 320
+    class_cond: false
+    use_new_attention_order: false
+
+diffusion:
+    beta_schedule: linear
+    beta_start: 0.0001
+    beta_end: 0.02
+    num_diffusion_timesteps: 1000
+
+sampling:
+    batch_size: 1
+    
+time_travel:
+    T_sampling: 100
+
+mri:
+    mask_type: uniform1d
+    acc_factor: 4
+    center_fraction: 0.08
+
+clip:
+    x0t: True
+    x0that: True
+
+projection_type: hard
+CG_iter: 5
+project_first: true
+project_later: false
+
+grad_type: ddnm
