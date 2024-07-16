@@ -41,7 +41,7 @@ If you find our work interesting, please consider citing
 @article{chung2024deep,
   title={Deep Diffusion Image Prior for Efficient OOD Adaptation in 3D Inverse Problems},
   author={Chung, Hyungjin and Ye, Jong Chul},
-  journal={arXiv preprint arXiv:????.?????},
+  journal={arXiv preprint arXiv:2407.10641},
   year={2024}
 }
 ```
