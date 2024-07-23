@@ -2,7 +2,7 @@
 
 [Hyungjin Chung](https://www.hj-chung.com/) and [Jong Chul Ye](https://bispl.weebly.com/professor.html)  
 
-Official PyTorch implementation for **Deep Diffusion Image Prior (DDIP)**, presented in the paper [v](https://arxiv.org/abs/2303.05754).
+Official PyTorch implementation for **Deep Diffusion Image Prior (DDIP)**, presented in the paper [Deep Diffusion Image Prior for Efficient OOD Adaptation in 3D Inverse Problems](https://arxiv.org/abs/2303.05754), ECCV 2024.
 ![problem_setting](./figs/problem_setting.png)
 ![concept](./figs/concept.png)
 ![main_results](./figs/main_results.png)
