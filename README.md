@@ -1,8 +1,10 @@
 # Deep Diffusion Image Prior for Efficient OOD Adaptation in 3D Inverse Problems
 
-[Hyungjin Chung](https://www.hj-chung.com/) and [Jong Chul Ye](https://bispl.weebly.com/professor.html)  
+[Hyungjin Chung](https://www.hj-chung.com/) and [Jong Chul Ye](https://bispl.weebly.com/professor.html)
 
-Official PyTorch implementation for **Deep Diffusion Image Prior (DDIP)**, presented in the paper [Deep Diffusion Image Prior for Efficient OOD Adaptation in 3D Inverse Problems](https://arxiv.org/abs/2303.05754), ECCV 2024.
+📢📢 The pre-trained model checkpoints and data are moved to a [new location](https://www.dropbox.com/scl/fo/mlkwofr24nmsnzixj5u4d/AI-JOLUOAzklINnr8FdKpdk?rlkey=p4bj5ny58tngsjd1j46iyoqh6&st=lba2c97z&dl=0).
+
+Official PyTorch implementation for **Deep Diffusion Image Prior (DDIP)**, presented in the paper [Deep Diffusion Image Prior for Efficient OOD Adaptation in 3D Inverse Problems](https://arxiv.org/abs/2407.10641), ECCV 2024.
 ![problem_setting](./figs/problem_setting.png)
 ![concept](./figs/concept.png)
 ![main_results](./figs/main_results.png)
